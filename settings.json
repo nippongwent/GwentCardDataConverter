@@ -1,0 +1,17 @@
+{
+    "Dataset": {
+        "v.9.6.0": { "LastUpdate": "2021/12/7" },
+        "v.9.6.1": { "LastUpdate": "2021/12/14" }
+    },
+    "DataDir": "data",
+    "FilePath": {
+        "Templates": "Templates.xml",
+        "Abilities": "Abilities.xml",
+        "Blackboards": "Blackboards.xml",
+        "ArtDefinitions": "ArtDefinitions.xml"
+    },
+    "LocalizePath": {
+        "ja-jp": "Localization/ja-jp.csv",
+        "en-us": "Localization/en-us.csv"
+    }
+}
