@@ -5,6 +5,7 @@ let version = 'v.9.6.1';
 let lang    = 'ja-jp';
 
 let gc  = new GwentCards(version);
-let CSV = new Converter(gc);
+gc.saveJSON(2); // JSON.stringfy() の第3引数（spacer）を渡せるようにしてある
 
+let CSV = new Converter(gc);
 CSV.saveFile(`./cards_${version}_${lang}.csv`, lang);
