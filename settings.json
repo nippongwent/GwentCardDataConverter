@@ -4,6 +4,7 @@
         "v.9.6.1": { "LastUpdate": "2021/12/14" }
     },
     "DataDir": "data",
+    "OutputDir": "output",
     "FilePath": {
         "Templates": "Templates.xml",
         "Abilities": "Abilities.xml",
