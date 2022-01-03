@@ -1,3 +1,11 @@
+# Private Directories
+data/
+output/
+snippet/
+
+# Mac
+.DS_Store
+
 # Logs
 logs
 *.log
