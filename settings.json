@@ -14,5 +14,7 @@
     "LocalizePath": {
         "ja-jp": "Localization/ja-jp.csv",
         "en-us": "Localization/en-us.csv"
-    }
+    },
+    "Changelog": true,
+    "JSONSpacer": 2
 }
