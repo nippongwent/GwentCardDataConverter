@@ -2,7 +2,7 @@ const GwentCards = require('./lib/GwentCards');
 const ConverterCSV = require('./lib/converter/GwentCard2CSV');
 const ConverterSS  = require('./lib/converter/GwentCard2Seesaa');
 
-let version = 'v.9.6.1';
+let version = 'v.10.1.0';
 let lang    = 'ja-jp';
 
 let gc  = new GwentCards(version);
