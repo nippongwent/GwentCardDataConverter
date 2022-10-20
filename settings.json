@@ -12,7 +12,8 @@
         "v.10.8.0": { "LastUpdate": "2022/8/9" },
         "v.10.9.0": { "LastUpdate": "2022/9/6" },
         "v.10.9.1": { "LastUpdate": "2022/9/7" },
-        "v.10.10.0": { "LastUpdate": "2022/10/4" }
+        "v.10.10.0": { "LastUpdate": "2022/10/4" },
+        "v.10.10.1": { "LastUpdate": "2022/10/8" }
     },
     "DataDir": "data",
     "OutputDir": "output",
