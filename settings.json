@@ -23,7 +23,8 @@
         "v.11.5.0": { "LastUpdate": "2023/5/11" },
         "v.11.6.0": { "LastUpdate": "2023/6/6" },
         "v.11.7.0": { "LastUpdate": "2023/7/11" },
-        "v.11.8.0": { "LastUpdate": "2023/8/8" }
+        "v.11.8.0": { "LastUpdate": "2023/8/8" },
+        "v.11.9.0": { "LastUpdate": "2023/9/12" }
     },
     "DataDir": "data",
     "OutputDir": "output",
