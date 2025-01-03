@@ -10,7 +10,7 @@ const ConverterSS = require('./lib/converter/GwentCard2Seesaa');
 const { execSync } = require('child_process'); // パッチを落としてから作業を始めるための同期処理に必要
 
 // グウェントフィニティ以後のバージョンは「v.bc（日付）.（回数）」の形式でないとエラーに
-let version = 'v.bc20241201.14';
+let version = 'v.bc20250101.15';
 
 // 先にパッチをダウンロードしておかなければならない
 const stdout = execSync(`node PatchDownloader.js ${version}`);
