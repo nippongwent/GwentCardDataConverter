@@ -39,8 +39,7 @@
         "v.bc20240901.11": { "LastUpdate": "2024/9/1" },
         "v.bc20241001.12": { "LastUpdate": "2024/10/1" },
         "v.bc20241101.13": { "LastUpdate": "2024/11/1" },
-        "v.bc20241201.14": { "LastUpdate": "2024/12/1" },
-        "v.bc20250101.15": { "LastUpdate": "2025/1/1" }
+        "v.bc20241201.14": { "LastUpdate": "2024/12/1" }
     },
     "DataDir": "data",
     "OutputDir": "output",
