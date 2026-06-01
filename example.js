@@ -7,10 +7,11 @@
 const GwentCards = require('./lib/GwentfinityCards');
 const ConverterCSV = require('./lib/converter/GwentCard2CSV');
 const ConverterSS = require('./lib/converter/GwentCard2Seesaa');
+const ConverterTW = require('./lib/converter/GwentCard2Tweet');
 const { execSync } = require('child_process'); // パッチを落としてから作業を始めるための同期処理に必要
 
 // グウェントフィニティ以後のバージョンは「v.bc（日付）.（回数）」の形式でないとエラーに
-let version = 'v.bc20260401.30';
+let version = 'v.bc20260601.32';
 
 // 先にパッチをダウンロードしておかなければならない
 const stdout = execSync(`node PatchDownloader.js ${version}`);
@@ -24,3 +25,6 @@ CSV.saveFile('en-us');
 
 let Seesaa = new ConverterSS(gc);
 Seesaa.make();
+
+let Tweet = new ConverterTW(gc);
+Tweet.make();
